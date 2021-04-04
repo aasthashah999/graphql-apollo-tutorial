@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/apollo-android-tutorial.iml" filepath="$PROJECT_DIR$/apollo-android-tutorial.iml" group="apollo-android-tutorial" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="apollo-android-tutorial/app" />
+      <module fileurl="file://$PROJECT_DIR$/apollo-android-tutorial.iml" filepath="$PROJECT_DIR$/apollo-android-tutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/apollo-android-tutorial.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/apollo-android-tutorial.app.iml" />
     </modules>
   </component>
 </project>
