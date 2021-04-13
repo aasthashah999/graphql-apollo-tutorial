@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.apollographql.apollo:apollo-normalized-cache-sqlite-android-debug:2.5.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0fa31d8f61326615176f8ab3412a8e53/transformed/jetified-apollo-normalized-cache-sqlite-debug/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0fa31d8f61326615176f8ab3412a8e53/transformed/jetified-apollo-normalized-cache-sqlite-debug/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.apollographql.apollo/apollo-normalized-cache-sqlite-android-debug/2.5.5/aaf1d4b4c8d84ddfb2d11a70f1a697fd1dc9c34c/apollo-normalized-cache-sqlite-android-debug-2.5.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.apollographql.apollo/apollo-normalized-cache-sqlite-android-debug/2.5.5/1085a333bbf2ab4a60c826d58916222575ea6831/apollo-normalized-cache-sqlite-android-debug-2.5.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,5 +1,0 @@
-query LaunchRocket($ID: String!){
-    launch(ID: $ID){
-
-    }
-}

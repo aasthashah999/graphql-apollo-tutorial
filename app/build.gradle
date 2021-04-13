@@ -1,12 +1,20 @@
-apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
-apply plugin: 'com.apollographql.apollo'
+
+plugins {
+    id("com.android.application")
+    id("kotlin-android")
+    id("kotlin-android-extensions")
+    id "com.apollographql.apollo"
+    id 'kotlin-kapt'
+}
 
 
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8.toString()
+    }
 
     defaultConfig {
         applicationId "com.cornellappdev.apollo_android_tutorial"
@@ -31,6 +39,8 @@ android {
 
 }
 
+def apollo_version = "2.5.5"
+
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
@@ -42,5 +52,9 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     implementation 'com.apollographql.apollo:apollo-runtime:2.5.5'
-    implementation 'com.apollographql.apollo:apollo-coroutines-support:2.5.5'
+    implementation "com.apollographql.apollo:apollo-coroutines-support:$apollo_version"
+    implementation "com.apollographql.apollo:apollo-api:2.5.5"
+    implementation "com.apollographql.apollo:apollo-normalized-cache-sqlite:2.5.5"
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.2.0")
+
 }
